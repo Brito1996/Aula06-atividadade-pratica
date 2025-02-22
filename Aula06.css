@@ -1,0 +1,47 @@
+header {
+    background-color: #c6cca5; /* COR DE FUNDO DO CABEÇALHO*/
+    text-align: center; /* ALINHAMENTOS DE TEXTO*/
+    color: brown; /* COR DA LETRA*/
+    padding: 13px; /* COR DO PREENCHIMENTO DO CABEÇALHO */
+
+}
+
+.jova {
+    padding: 150px;
+    background-color: #8ab8a8;
+
+}
+
+.russo {
+    padding: 150px;
+    background-color: #6b9997;
+}
+
+.grilo {
+    padding: 150px;
+    background-color: #54787d;
+
+}
+
+footer {
+    background-color: #615145; /* COR DE FUNDO DO RODAPÉ*/ 
+    text-align: center; /* ALINHAMENTO DO TEXTO */ 
+    color: bisque; 
+    padding: 1px;
+    
+}
+
+header h1 {
+    color: rgb(0, 110, 255); /* COR SEMPRE DA LETRA*/ 
+    font-size: 30px; /* FUNÇÃO FONT SIZE SEMPRE PARA OA TAMANHO DA LETRA */
+
+}
+
+footer p {
+    color: darkblue; /* COR DA LETRA*/
+    font-size: 15px; /* TAMANHO DA LETRA*/
+}
+
+footer .primeiro-nome {
+    color: mediumblue; /* COR DO PRIMEIRO PARAGRAFO COM COMANDO CLASS*/
+}
