@@ -1,15 +1,23 @@
-header {
+header { /*ESTILIZANDO O CABEÇALHO*/
     background-color: #c6cca5; /* COR DE FUNDO DO CABEÇALHO*/
-    text-align: center; /* ALINHAMENTOS DE TEXTO*/
+    text-align: left; /* ALINHAMENTOS DE TEXTO*/
     color: brown; /* COR DA LETRA*/
     padding: 13px; /* COR DO PREENCHIMENTO DO CABEÇALHO */
+    display: flex; /*RESPONÁVEL POR TORNAR OS ITENS *FLEX* E DEIXAR LADO A LADO*/
+    justify-content: center; /* ORGANIZAÇÃO DOS CONTEÚDOS DO CABEÇALHO *SÓ FUNCIONA SE O COMANDO DISPLAY FLEX ESTIVER* */
+    gap: 20px; /*ESPAÇAMENTO ENTRE OS ELEMTNOS (H1 E IMG) */    
+    align-items: center; /*ALINHAMENTO DOS ITENS*/
+    /*SÓ FUNCIONA ESSES ELEMTNOS SE CASO O DISPLAY FLEX ESTEJA NO COMANDO*/
 
 }
 
 .jova {
-    padding: 150px;
-    background-color: #8ab8a8;
-
+    padding: 150px; /*PREENCHIMENTO DA SESSÃO */
+    background-color: #8ab8a8; /*COR DE FUNDO */
+    display: flex;/*DEIXANDO FLYER / LADO A LADO */
+    justify-content: center; /*JUSTIFICANDO O CONTEÚDO AO CENTRO*/
+    gap: 30px; /*ESPAÇO/RESPEITO ENTRE OS ITENS*/
+    align-items: center; /*ALINHAMENTOS OS ITENS OA CENTRO*/
 }
 
 .russo {
@@ -17,11 +25,22 @@ header {
     background-color: #6b9997;
 }
 
-.grilo {
-    padding: 150px;
-    background-color: #54787d;
+.renato i {
+    font-size: 100px;
+    color: aqua;
+
 
 }
+
+.grilo {
+    padding: 150px; 
+    background-image: url(Imagens/lazer-bebidas-pessoas-e-conceito-de-comunicacao-amigos-felizes-bebendo-cafe-em-copos-de-papel-descartaveis-no-restaurante-ou-cafe_380164-172589.jpg); /*CAMINHO DA IMAGEM*/
+    background-position: bottom; /*POSIÇÃO DA IMAGEM*/
+    background-size: cover; /*PREENCHIMENTO TOTAL DA IMAGEM*/
+
+}
+
+
 
 footer {
     background-color: #615145; /* COR DE FUNDO DO RODAPÉ*/ 
@@ -31,10 +50,16 @@ footer {
     
 }
 
-header h1 {
+header h1 { /* ESTÁ ESTILIZANDO O TÍTULO*/
     color: rgb(0, 110, 255); /* COR SEMPRE DA LETRA*/ 
     font-size: 30px; /* FUNÇÃO FONT SIZE SEMPRE PARA OA TAMANHO DA LETRA */
+    font-family: 'Times New Roman', Times, serif;
 
+}
+
+header img { /*ESTÁ ESTILIZANDO A IMAGEM */
+    width: 80px;
+    
 }
 
 footer p {
