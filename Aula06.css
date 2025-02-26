@@ -1,28 +1,44 @@
-header { /*ESTILIZANDO O CABEÇALHO*/
-    background-color: #c6cca5; /* COR DE FUNDO DO CABEÇALHO*/
-    text-align: left; /* ALINHAMENTOS DE TEXTO*/
-    color: brown; /* COR DA LETRA*/
-    padding: 13px; /* COR DO PREENCHIMENTO DO CABEÇALHO */
-    display: flex; /*RESPONÁVEL POR TORNAR OS ITENS *FLEX* E DEIXAR LADO A LADO*/
-    justify-content: center; /* ORGANIZAÇÃO DOS CONTEÚDOS DO CABEÇALHO *SÓ FUNCIONA SE O COMANDO DISPLAY FLEX ESTIVER* */
-    gap: 20px; /*ESPAÇAMENTO ENTRE OS ELEMTNOS (H1 E IMG) */    
-    align-items: center; /*ALINHAMENTO DOS ITENS*/
+header {
+    /*ESTILIZANDO O CABEÇALHO*/
+    background-color: #c6cca5;
+    /* COR DE FUNDO DO CABEÇALHO*/
+    text-align: left;
+    /* ALINHAMENTOS DE TEXTO*/
+    color: brown;
+    /* COR DA LETRA*/
+    padding: 13px;
+    /* COR DO PREENCHIMENTO DO CABEÇALHO */
+    display: flex;
+    /*RESPONÁVEL POR TORNAR OS ITENS *FLEX* E DEIXAR LADO A LADO*/
+    justify-content: center;
+    /* ORGANIZAÇÃO DOS CONTEÚDOS DO CABEÇALHO *SÓ FUNCIONA SE O COMANDO DISPLAY FLEX ESTIVER* */
+    gap: 20px;
+    /*ESPAÇAMENTO ENTRE OS ELEMTNOS (H1 E IMG) */
+    align-items: center;
+    /*ALINHAMENTO DOS ITENS*/
     /*SÓ FUNCIONA ESSES ELEMTNOS SE CASO O DISPLAY FLEX ESTEJA NO COMANDO*/
 
 }
 
 .jova {
-    padding: 150px; /*PREENCHIMENTO DA SESSÃO */
-    background-color: #8ab8a8; /*COR DE FUNDO */
-    display: flex;/*DEIXANDO FLYER / LADO A LADO */
-    justify-content: center; /*JUSTIFICANDO O CONTEÚDO AO CENTRO*/
-    gap: 30px; /*ESPAÇO/RESPEITO ENTRE OS ITENS*/
-    align-items: center; /*ALINHAMENTOS OS ITENS OA CENTRO*/
+    padding: 150px;
+    /*PREENCHIMENTO DA SESSÃO */
+    background-color: #8ab8a8;
+    /*COR DE FUNDO */
+    display: flex;
+    /*DEIXANDO FLYER / LADO A LADO */
+    justify-content: center;
+    /*JUSTIFICANDO O CONTEÚDO AO CENTRO*/
+    gap: 30px;
+    /*ESPAÇO/RESPEITO ENTRE OS ITENS*/
+    align-items: center;
+    /*ALINHAMENTOS OS ITENS DO CENTRO*/
 }
 
 .russo {
     padding: 150px;
     background-color: #6b9997;
+    text-align: center;
 }
 
 .renato i {
@@ -33,40 +49,65 @@ header { /*ESTILIZANDO O CABEÇALHO*/
 }
 
 .grilo {
-    padding: 150px; 
-    background-image: url(Imagens/lazer-bebidas-pessoas-e-conceito-de-comunicacao-amigos-felizes-bebendo-cafe-em-copos-de-papel-descartaveis-no-restaurante-ou-cafe_380164-172589.jpg); /*CAMINHO DA IMAGEM*/
-    background-position: bottom; /*POSIÇÃO DA IMAGEM*/
-    background-size: cover; /*PREENCHIMENTO TOTAL DA IMAGEM*/
+    padding: 200px;
+    background-image: url(Imagens/900-473-organograma-funcional-cafeteria.jpg); /*RESPONSAVEL PELA IMAGEM DE FUNDO*/
+    background-position: center; /*POSICIONAMENTO DA IMAGEM*/
+    background-size: cover; /*PREENCHIMENTO DA ÁREA DISPONIVEL DA IMAGEM*/
+    background-repeat: no-repeat; /*RETIRANDO A REPETIÇÃO DA IMAGEM NO BACKGROUND*/
+    display: flex; /*TORNANDO OS ITENS FLEX*/
+    justify-content: center; /*ALINHANDO O BOTÃO AO CENTRO*/
+}
+
+.grilo button {
+    width: 180px; /*LARGURA DO BOTÃO*/
+    padding: 30px;/*PREENCHIMENTO DO BOTÃO*/
+    background-color: cornsilk; /*COR DE FUNDO COM OPACIDADE*/
+    color: navy; /*COR DA LETRA DO BOTÃO*/ 
+    border-radius: 30px; /*ARREDONDAMENTO DO BOTÃO*/
 
 }
 
-
-
 footer {
-    background-color: #615145; /* COR DE FUNDO DO RODAPÉ*/ 
-    text-align: center; /* ALINHAMENTO DO TEXTO */ 
-    color: bisque; 
-    padding: 1px;
+    background-color: #615145;
+    /* COR DE FUNDO DO RODAPÉ*/
+    padding: 30px;
+    text-align: center;
+    /* ALINHAMENTO DO TEXTO */
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
-header h1 { /* ESTÁ ESTILIZANDO O TÍTULO*/
-    color: rgb(0, 110, 255); /* COR SEMPRE DA LETRA*/ 
-    font-size: 30px; /* FUNÇÃO FONT SIZE SEMPRE PARA OA TAMANHO DA LETRA */
+footer i {
+font-size: 40px;
+}
+
+header h1 {
+    /* ESTÁ ESTILIZANDO O TÍTULO*/
+    color: rgb(0, 110, 255);
+    /* COR SEMPRE DA LETRA*/
+    font-size: 30px;
+    /* FUNÇÃO FONT SIZE SEMPRE PARA OA TAMANHO DA LETRA */
     font-family: 'Times New Roman', Times, serif;
 
 }
 
-header img { /*ESTÁ ESTILIZANDO A IMAGEM */
+
+header img {
+    /*ESTÁ ESTILIZANDO A IMAGEM */
     width: 80px;
-    
+
 }
+
 
 footer p {
-    color: darkblue; /* COR DA LETRA*/
-    font-size: 15px; /* TAMANHO DA LETRA*/
+    color: rgb(255, 255, 255);
+    /* COR DA LETRA*/
+    font-size: 15px;
+    /* TAMANHO DA LETRA*/
 }
 
-footer .primeiro-nome {
-    color: mediumblue; /* COR DO PRIMEIRO PARAGRAFO COM COMANDO CLASS*/
-}
+
